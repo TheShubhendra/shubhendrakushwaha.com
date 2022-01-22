@@ -231,10 +231,19 @@ a{
 }
 .contact-form button{
     width: auto;
-    padding: 5px 10px;
+    padding: 8px 15px;
+    font-size: 20px;
+    color: #1E2124;
     background-color: rgb(194,204,249);
+    transition-delay: 1s;
 }
-
+.contact-form button:hover{
+    background-color: #1E2124;
+    color: rgb(194,204,249);;
+}
+.contact-form h1,h3{
+    margin:10px auto;
+}
 .card{
     margin: 20px;
     padding:30px;
