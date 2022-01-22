@@ -30,3 +30,7 @@ var top = (document.documentElement && document.documentElement.scrollTop) || do
 	}
 	lastScrollTop=top;
 });
+VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400
+	});

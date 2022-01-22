@@ -175,9 +175,49 @@ a{
     font-size: 20px;
     margin:5px 2px;
 }
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .card{
+    width: 300px;
+}
+.services .card:nth-child(1){
+    background-color:rgba(255,68,68,0.7);
+    box-shadow: 20px 20px 50px rgba(255,68,68,0.5);
+}
+.services .card:nth-child(2){
+    background-color:rgba(253,150,79,0.7);
+    box-shadow: 20px 20px 50px rgba(253,150,79,0.5);
+
+}
+.services .card:nth-child(3){
+    background-color:rgba(68,68,255,0.7);
+    box-shadow: 20px 20px 50px rgba(68,68,255,0.5);
+
+}
+.services .card-title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+.services .card-content{
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+}
+.services .card:hover .card-title, .services .card:hover .card-content{
+    opacity: 1;
+}
 .contact-form{
+    margin-top:100px;
     padding:10px;
     text-align: center;
+    background-color: white;
 }
 .contact-form input, textarea, button{
     margin: 5px auto;
@@ -196,11 +236,11 @@ a{
 }
 
 .card{
-    margin:5px 20px;
-    padding:10px;
+    margin: 20px;
+    padding:30px;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 .about-me .content{
@@ -230,10 +270,15 @@ footer .social li a:hover{
     transform: translateY(-15px);
     opacity: 1;
 }
-.curve{
+#curve2{
     margin:0;
     position: relative;
     top:30px;
+}
+#curve1{
+    margin: 0;
+    position: relative;
+    top:-20px;
 }
 h3,h4{
     color:rgb(124,124,124);
