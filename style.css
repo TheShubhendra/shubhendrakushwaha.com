@@ -196,12 +196,12 @@ a{
 }
 .services .card-title{
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 15px;
     opacity: 0.9;
 }
 .services .card-content{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     opacity: 0.9;
 }
@@ -236,7 +236,7 @@ a{
     background-color: #1E2124;
     color: rgb(194,204,249);;
 }
-.contact-form h1,h3{
+.contact-form h3,h4{
     margin:10px auto;
 }
 .card{
@@ -284,6 +284,6 @@ footer .social li a:hover{
     position: relative;
     top:-20px;
 }
-h3,h4{
+.contact-form h4{
     color:rgb(124,124,124);
 }
