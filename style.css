@@ -62,20 +62,22 @@ a{
 }
 @media only screen and (max-width: 768px) {
     .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%);
+        opacity: 0;
+        top: 5rem ;
         flex-direction: column;
-        background-color: #fff;
-        width: 100%;
+        background-color: #b4b7f0ee;
+        width: 90%;
         border-radius: 10px;
-        text-align: left;
-        transition: 0.3s;
+       
+        transition-duration: 0.7s;
         box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
     .nav-menu.active {
-        left: 0;
+        opacity: 1;
     }
 
     .nav-item {
