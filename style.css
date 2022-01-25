@@ -266,6 +266,7 @@ a{
     font-size:20px;
 }
  footer {
+     margin-top:-20px;
     background-color:#1E2124;
     padding: 20px;
     text-align: center;
@@ -289,11 +290,6 @@ footer .social li a{
 footer .social li a:hover{
     transform: translateY(-15px);
     opacity: 1;
-}
-#curve2{
-    position: relative;
-    top:30px;
-    background-color: white;
 }
 .contact-form h4{
     color:rgb(124,124,124);
