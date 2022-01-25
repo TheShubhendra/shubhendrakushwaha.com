@@ -298,3 +298,15 @@ footer .social li a:hover{
 .contact-form h4{
     color:rgb(124,124,124);
 }
+.card[data-scroll]{
+    position: relative;
+    transition: all 0.5s;
+}
+.card[data-scroll="out"]{
+    top:50px;
+    opacity: 0;
+}
+.card[data-scroll="in"]{
+    top:0;
+    opacity: 0.9;
+}
