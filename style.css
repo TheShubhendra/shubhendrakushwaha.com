@@ -64,20 +64,20 @@ a{
     .nav-menu {
         position: absolute;
         left: 50%;
-        transform:translateX(-50%);
+        transform:translateX(-200%);
         opacity: 0;
         top: 5rem ;
         flex-direction: column;
         background-color: #b4b7f0ee;
         width: 90%;
         border-radius: 10px;
-       
         transition-duration: 0.7s;
         box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
     .nav-menu.active {
         opacity: 1;
+        transform: translateX(-50%);
     }
 
     .nav-item {
@@ -134,7 +134,7 @@ a{
     mix-blend-mode: screen;
 }
 .hero-container img#mountains_front{
-    z-index: 1000;
+    z-index: 9998;
 }
 .hero-container img#mountains_behind{
     z-index: 99;
@@ -146,7 +146,7 @@ a{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    z-index: 999;
+    z-index: 9999;
 }
 .cta{
     display: block;
@@ -294,15 +294,15 @@ footer .social li a:hover{
 .contact-form h4{
     color:rgb(124,124,124);
 }
-.card[data-scroll]{
+.card[data-scroll], .contact-form{
     position: relative;
     transition: all 0.5s;
 }
-.card[data-scroll="out"]{
+.card[data-scroll="out"], .contact-form[data-scroll="out"]{
     top:50px;
     opacity: 0;
 }
-.card[data-scroll="in"]{
+.card[data-scroll="in"], .contact-form[data-scroll="in"]{
     top:0;
     opacity: 0.9;
 }

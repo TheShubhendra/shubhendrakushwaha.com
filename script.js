@@ -41,5 +41,5 @@ VanillaTilt.init(document.querySelectorAll(".card"), {
 		speed: 400
 	});
 ScrollOut({
-    targets: ".card"
+    targets: ".card, .contact-form"
 });
